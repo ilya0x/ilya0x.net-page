@@ -1,0 +1,121 @@
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+/* Center the entire content vertically and horizontally */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Anonymous Pro", monospace;
+  background-color: rgb(25, 25, 25);
+  color: rgba(255, 255, 255, 0.75);
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+/* Apply the rainbow color-changing effect to the image */
+#color-changing-image {
+  max-width: 100%;
+  animation: colorChange 10s linear infinite;
+  /* Adjust the duration as needed */
+}
+
+/* Define the keyframes for the colorChange animation */
+@keyframes colorChange {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  /* Start with no hue rotation (original color) */
+  100% {
+    filter: hue-rotate(360deg);
+  }
+  /* Rotate through the full color spectrum (360 degrees) */
+}
+/* Position the text and image containers */
+.text-container {
+  text-align: left;
+  margin-bottom: 20px;
+  /* Adjust as needed to create space between text and images */
+}
+
+.image-container {
+  text-align: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  animation: colorChange 10s linear infinite, tremble 2s infinite;
+  filter: hue-rotate(0deg);
+  /* Initial color */
+}
+
+.image-link {
+  text-decoration: none;
+}
+
+.invert-on-hover {
+  filter: invert(0%);
+  transition: filter 1s;
+}
+
+.invert-on-hover:hover {
+  filter: invert(70%);
+}
+
+.rabbit-on-hover {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+.rabbit-on-hover:hover {
+  opacity: 0;
+}
+
+.typewriter-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typewriter-text {
+  font-size: 18px;
+}
+
+.content-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 75%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.content {
+  font-size: 24px;
+  text-align: center;
+  margin: 20px;
+}/*# sourceMappingURL=main.css.map */
