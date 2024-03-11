@@ -9,11 +9,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
 // set up text to print, each item in array is new line
 var aText = new Array(
-    "I'm a seasoned content strategist with a background in event production and media coordination.", 
+    "I am a seasoned content strategist with a background in event production, media coordination, and IT services.", 
     " ",
-    "I've produced everything from corporate events and symposiums to multi-day warehouse art festivals that would even leave Alice in awe and wonder.",
-    " ",
-    "Recently, I've been diving into Python and machine learning, with a keen interest in Mojo🔥 programming language, aiming to combine my event and content skills with coding in the AI development space."
+    "My expertise lies in event conceptualization and execution with a focus on target demographics and cultural insights, alongside adept negotiation, financial management, and strategic social media marketing."
     );
     var iSpeed = 50; // time delay of print out
     var iIndex = 0; // start printing array at this position
