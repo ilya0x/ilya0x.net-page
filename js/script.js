@@ -11,7 +11,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
 var aText = new Array(
     "I am a seasoned content strategist with a background in event production, media coordination, and IT services.", 
     " ",
-    "My expertise lies in event conceptualization and execution with a focus on target demographics and cultural insights, alongside adept negotiation, financial management, and strategic social media marketing."
+    "My expertise lies in event conceptualization and execution with a focus on target demographics and cultural insights, alongside adept negotiation, financial management, and strategic social media marketing.", 
+    " ",
+    "Now, as I stand on the cusp of a new phase in my life, the Peace Corps beckons me. Reflecting on my professional journey and volunteer experiences, I feel that I am ready to contribute significantly to the Corps' mission."
     );
     var iSpeed = 50; // time delay of print out
     var iIndex = 0; // start printing array at this position
