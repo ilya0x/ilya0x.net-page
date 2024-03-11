@@ -15,9 +15,6 @@ body {
   font-family: "Anonymous Pro", monospace;
   background-color: rgb(25, 25, 25);
   color: rgba(255, 255, 255, 0.75);
-  height: 100%;
-  overflow: hidden;
-  margin: 0;
 }
 
 .container {
